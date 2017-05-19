@@ -30,9 +30,3 @@ def my_files():
 #Print out the number of files
     print("Number of files: " + str(number_of_files))
     print("")
-    
-#For each file: print out the file name, print out the length of each file name
-    for fileee_name in my_file_list:
-        print("Name of File: "+ fileee_name)
-        print("Length of " + "'" + fileee_name + "'" + ": " +str(len(fileee_name)))
-        print("")
