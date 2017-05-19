@@ -36,6 +36,11 @@ def my_files():
         print("Name of File: "+ fileee_name)
         print("Length of " + "'" + fileee_name + "'" + ": " +str(len(fileee_name)))
         print("")
-#A1comments comments comments comments
-#A1comments comments comments comments
-#A1comments comments comments comments
+        
+#Change the current working directory back to the original path       
+    os.chdir(var_saved_path)
+
+#Print out the current working directory
+    print("DIRECTORY CHANGED BACK TO "+ os.getcwd())
+      
+my_files()
