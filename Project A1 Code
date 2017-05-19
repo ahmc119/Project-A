@@ -42,5 +42,3 @@ def my_files():
 
 #Print out the current working directory
     print("DIRECTORY CHANGED BACK TO "+ os.getcwd())
-      
-my_files()
